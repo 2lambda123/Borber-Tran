@@ -3522,9 +3522,9 @@ dependencies = [
 
 [[package]]
 name = "schemars"
-version = "0.8.16"
+version = "0.8.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "45a28f4c49489add4ce10783f7911893516f15afe45d015608d41faca6bc4d29"
+checksum = "09c024468a378b7e36765cd36702b7a90cc3cba11654f6685c8f233408e89e92"
 dependencies = [
  "dyn-clone",
  "indexmap 1.9.3",
@@ -3536,14 +3536,14 @@ dependencies = [
 
 [[package]]
 name = "schemars_derive"
-version = "0.8.16"
+version = "0.8.21"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c767fd6fa65d9ccf9cf026122c1b555f2ef9a4f0cea69da4d7dbc3e258d30967"
+checksum = "b1eee588578aff73f856ab961cd2f79e36bc45d7ded33a7562adba4667aecc0e"
 dependencies = [
  "proc-macro2",
  "quote",
  "serde_derive_internals",
- "syn 1.0.109",
+ "syn 2.0.59",
 ]
 
 [[package]]
@@ -3656,13 +3656,13 @@ dependencies = [
 
 [[package]]
 name = "serde_derive_internals"
-version = "0.26.0"
+version = "0.29.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "85bf8229e7920a9f636479437026331ce11aa132b4dde37d121944a44d6e5f3c"
+checksum = "18d26a20a969b9e3fdf2fc2d9f21eda6c40e2de84c9408bb5d3b05d499aae711"
 dependencies = [
  "proc-macro2",
  "quote",
- "syn 1.0.109",
+ "syn 2.0.59",
 ]
 
 [[package]]
@@ -4165,15 +4165,15 @@ dependencies = [
 
 [[package]]
 name = "tauri-build"
-version = "2.0.0-beta.12"
+version = "2.0.0-beta.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "33de24aabe2b9c340d67005800cb6dd40aac5283126a42896fc8eec0b87cbe45"
+checksum = "1a6829341dde141cd48caabd4f57463444fb1127e7e20e758088be12e866bd77"
 dependencies = [
  "anyhow",
  "cargo_toml",
  "dirs-next",
  "glob",
- "heck 0.4.1",
+ "heck 0.5.0",
  "json-patch",
  "schemars",
  "semver",
@@ -4313,16 +4313,16 @@ dependencies = [
 
 [[package]]
 name = "tauri-utils"
-version = "2.0.0-beta.12"
+version = "2.0.0-beta.16"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "760ac613d7f0de95067bcbcbcea175fe1df88fc4ab59c7f0b2cc2d01dc16a199"
+checksum = "199edb0e8969f53decfb683971faa50eb8b421f9034bfa95121286e1e93beaef"
 dependencies = [
  "brotli",
  "cargo_metadata",
  "ctor",
  "dunce",
  "glob",
- "heck 0.4.1",
+ "heck 0.5.0",
  "html5ever",
  "infer",
  "json-patch",
