@@ -4327,9 +4327,9 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin"
-version = "2.0.0-beta.12"
+version = "2.0.0-beta.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "21c6be726c8d57ccf440e6b05a904e6acbbafb9aaf88b8a47cc1923d36ddc512"
+checksum = "1abe0b85472516d1033ba251ac81b9f18f02725aadcaad697c8b727e6505a6ad"
 dependencies = [
  "anyhow",
  "glob",
@@ -4344,9 +4344,9 @@ dependencies = [
 
 [[package]]
 name = "tauri-plugin-process"
-version = "2.0.0-beta.3"
+version = "2.0.0-beta.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "11215c3615299090e97f37341ae4b01f518bc1d43e9c4391144c0e5e3b7d4f01"
+checksum = "df8bf01547046400c3386ac0626c3f48dde14021a3a4d143f7bba62f4bfd661b"
 dependencies = [
  "tauri",
  "tauri-plugin",
