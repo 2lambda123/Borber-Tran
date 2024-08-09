@@ -13,7 +13,7 @@
   "license": "GPLv3",
   "dependencies": {
     "@tauri-apps/api": "^2.0.0-rc.0",
-    "solid-js": "^1.8.19",
+    "solid-js": "^1.8.20",
     "solid-spinner": "^0.2.0"
   },
   "devDependencies": {
