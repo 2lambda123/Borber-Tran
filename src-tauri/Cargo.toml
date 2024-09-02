@@ -13,7 +13,7 @@ tauri-build = { version = "2.0.0-rc.6", features = [] }
 
 [dependencies]
 tauri = { version = "2.0.0-rc.8", features = ["tray-icon"] }
-tauri-plugin-process = "2.0.0-rc.0"
+tauri-plugin-process = "2.0.0-rc.1"
 tauri-plugin-single-instance = "2.0.0-rc.1"
 
 # For base
