@@ -22,8 +22,8 @@ importers:
         specifier: ^2.0.0-rc.16
         version: 2.0.0-rc.16
       '@types/node':
-        specifier: ^22.7.2
-        version: 22.7.2
+        specifier: ^22.7.3
+        version: 22.7.3
       '@typescript-eslint/eslint-plugin':
         specifier: ^8.7.0
         version: 8.7.0(@typescript-eslint/parser@8.7.0(eslint@9.11.1)(typescript@5.6.2))(eslint@9.11.1)(typescript@5.6.2)
@@ -44,10 +44,10 @@ importers:
         version: 5.6.2
       vite:
         specifier: ^5.4.7
-        version: 5.4.7(@types/node@22.7.2)
+        version: 5.4.7(@types/node@22.7.3)
       vite-plugin-solid:
         specifier: ^2.10.2
-        version: 2.10.2(solid-js@1.9.1)(vite@5.4.7(@types/node@22.7.2))
+        version: 2.10.2(solid-js@1.9.1)(vite@5.4.7(@types/node@22.7.3))
 
 packages:
 
@@ -539,8 +539,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.7.2':
-    resolution: {integrity: sha512-866lXSrpGpgyHBZUa2m9YNWqHDjjM0aBTJlNtYaGEw4rqY/dcD7deRVTbBBAJelfA7oaGDbNftXF/TL/A6RgoA==}
+  '@types/node@22.7.3':
+    resolution: {integrity: sha512-qXKfhXXqGTyBskvWEzJZPUxSslAiLaB6JGP1ic/XTH9ctGgzdgYguuLP1C601aRTSDNlLb0jbKqXjZ48GNraSA==}
 
   '@typescript-eslint/eslint-plugin@8.7.0':
     resolution: {integrity: sha512-RIHOoznhA3CCfSTFiB6kBGLQtB/sox+pJ6jeFu6FxJvqL8qRxq/FfGO/UhsGgQM9oGdXkV4xUgli+dt26biB6A==}
@@ -1651,7 +1651,7 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.7.2':
+  '@types/node@22.7.3':
     dependencies:
       undici-types: 6.19.6
 
@@ -2322,7 +2322,7 @@ snapshots:
 
   validate-html-nesting@1.2.2: {}
 
-  vite-plugin-solid@2.10.2(solid-js@1.9.1)(vite@5.4.7(@types/node@22.7.2)):
+  vite-plugin-solid@2.10.2(solid-js@1.9.1)(vite@5.4.7(@types/node@22.7.3)):
     dependencies:
       '@babel/core': 7.24.0
       '@types/babel__core': 7.20.5
@@ -2330,23 +2330,23 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.9.1
       solid-refresh: 0.6.3(solid-js@1.9.1)
-      vite: 5.4.7(@types/node@22.7.2)
-      vitefu: 0.2.5(vite@5.4.7(@types/node@22.7.2))
+      vite: 5.4.7(@types/node@22.7.3)
+      vitefu: 0.2.5(vite@5.4.7(@types/node@22.7.3))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.7(@types/node@22.7.2):
+  vite@5.4.7(@types/node@22.7.3):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.44
       rollup: 4.21.0
     optionalDependencies:
-      '@types/node': 22.7.2
+      '@types/node': 22.7.3
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.7(@types/node@22.7.2)):
+  vitefu@0.2.5(vite@5.4.7(@types/node@22.7.3)):
     optionalDependencies:
-      vite: 5.4.7(@types/node@22.7.2)
+      vite: 5.4.7(@types/node@22.7.3)
 
   which@2.0.2:
     dependencies:
