@@ -19,7 +19,7 @@
   "devDependencies": {
     "@tauri-apps/cli": "^2.1.0",
     "@types/node": "^22.10.1",
-    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
     "eslint": "^9.16.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",
